@@ -1,0 +1,17 @@
+:root {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent; /* Allow transparency */
+  user-select: none;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
