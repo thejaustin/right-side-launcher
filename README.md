@@ -2,26 +2,41 @@
 
 A premium, highly customizable, Niagara-style application launcher for Windows. Built with Electron, React, and Framer Motion.
 
-## Features
+## 🚀 Key Highlights
 
-- **Niagara-Style Interactions:** Physics-based fisheye, carousel, and skew effects that respond naturally to your cursor.
-- **Material You (MD3):** Dynamic tonal surfaces and rounded typography that adapt to your chosen accent color.
-- **Theme Packs:** Instant presets for **Fluent (Win 11)**, **Metro (Win 10)**, **Aero (Win 7)**, **macOS**, and **Cyberpunk**.
-- **Interactive Resizing:** Drag the edge of the panel to resize it in real-time.
-- **Global Hotkey:** Toggle the launcher from anywhere using `Alt + Space`.
-- **Intelligent Autohide:** Full-screen mouse tracking ensures the launcher hides reliably when you move away.
-- **Pinned Apps:** Keep your most-used apps at the top with a simple right-click.
-- **Advanced Customization:** Fine-tune blur, saturation, opacity, corner radius, and animation stiffness.
+- **Design Systems (Theme Packs):** Instant presets for professional aesthetics:
+  - **Material You (MD3):** Dynamic tonal surfaces, adaptive highlights, and rounded typography.
+  - **Fluent (Win 11):** Modern glassmorphism with standard Windows 11 aesthetics.
+  - **macOS / iOS:** High-blur glass effects with 20px rounded corners and large icons.
+  - **Aero (Win 7):** Classic high-transparency and high-blur nostalgia.
+  - **Metro (Win 10):** Sharp, high-contrast, solid color tiles.
+  - **Cyberpunk:** High-saturation, skew-animated neon aesthetic.
+- **Niagara-Style Interactions:** High-performance, physics-based effects that respond naturally to your cursor:
+  - **Fisheye Wave:** Items expand and "fan out" around the cursor.
+  - **3D Carousel:** A cylindrical rotation effect.
+  - **Skew:** Dynamic 3D tilting as you seek.
+  - **Highlight:** Spotlight focus that dims non-target items.
+- **Interactive Sizing:** Real-time window resizing by dragging the inner edge of the panel.
+- **Pinned Apps:** Keep your most-used applications at the top with a simple right-click pin system.
+- **Intelligent Autohide:** Full-screen invisible mouse tracking ensures the launcher hides reliably and never gets "stuck."
+- **Global Hotkey:** Toggle visibility from anywhere using `Alt + Space`.
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Framework:** Electron
-- **UI:** React
-- **Animations:** Framer Motion
+- **UI:** React (Context API for state management)
+- **Animations:** Framer Motion (Physics-based springs)
 - **Bundler:** Vite
 - **Language:** TypeScript
 
-## Installation
+## ⚙️ Advanced Customization
+
+Accessible through the tabbed Settings menu (⚙):
+- **Visuals:** Fine-tune blur, saturation, opacity, corner radius, and font styles (Modern, Pixel, Mono, Rounded).
+- **Interaction:** Adjust animation stiffness, item spacing, and motion effects.
+- **Layout:** Change screen anchor (Left/Right), panel width, and trigger zone thickness.
+
+## 🚀 Installation
 
 1. Clone the repository:
    ```bash
@@ -37,7 +52,7 @@ A premium, highly customizable, Niagara-style application launcher for Windows. 
    npm run dev
    ```
 
-## Keybindings
+## ⌨️ Keybindings
 
 - **Alt + Space:** Toggle Launcher Visibility
 - **Mouse Wheel:** Scroll App List
